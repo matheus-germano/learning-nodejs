@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '12345',
+  password: 'admin',
   database: 'modal',
   port: 3306
 });
